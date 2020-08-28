@@ -3,8 +3,8 @@
 Para rodar o projeto so executar os comandos abaixo
 
 ```
-git  git clone https://github.com/SelecaoGlobocom/kayke-souto.git
-cd kayke-souto
+git  git clone https://github.com/kscastro/live-search-js.git
+cd live-search-js
 ```
 
 ### Pré requisitos
