@@ -1,0 +1,144 @@
+.header {
+  background-color: #9e0e00;
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid #a54942;
+}
+
+.input-container {
+  margin: 0 auto;
+  max-width: 200px;
+  padding: 11px;
+}
+
+.input-container > img {
+  position: absolute;
+  margin-left: 8px;
+  margin-top: 4px;
+  width: 15px;
+  height: 17px;
+}
+
+.input-container > input {
+  padding-left: 40px;
+  border: 0 none;
+  font-size: 12px;
+  color: #414141;
+  width: 150px;
+  padding: 6px 15px 6px 35px;
+  border-radius: 3px;
+  background-size: 15px 17px;
+  outline: none;
+  font-weight: 600;
+}
+
+.input-container > input::-webkit-input-placeholder {
+  /* Edge */
+  color: #414141;
+}
+
+.input-container > input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #414141;
+}
+
+.input-container > input::placeholder {
+  color: #414141;
+}
+
+.box-results {
+  width: 270px;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+.box-results-arrow::after {
+  content: " ";
+  background: #fff;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  margin-left: 116px;
+  margin-top: -7px;
+  transform: rotate(45deg);
+}
+
+a {
+  text-decoration: none;
+}
+
+.highlight {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.highlight-img {
+  width: 30px;
+  height: 28px;
+  object-fit: contain;
+  position: relative;
+  top: 8px;
+  padding: 8px 0px 0px 12px;
+}
+
+.highlight-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #616060;
+  display: inline;
+  padding-left: 12px;
+}
+
+.container-suggestions-title {
+  width: 100%;
+  height: 20px;
+}
+
+.suggestions-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  color: #c1c1c1;
+  text-align: right;
+  padding-right: 9px;
+  padding-top: 9px;
+}
+
+.suggestions {
+  padding: 12px 0px 0px 12px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.suggestions-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #313030;
+  font-weight: 400;
+  padding-bottom: 6px;
+}
+
+.search-globo {
+  padding: 0px 0px 0px 12px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.search-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #969696;
+  font-weight: 400;
+  padding-bottom: 6px;
+  padding-top: 6px;
+}
+.name {
+  color: #353333;
+}
+
+.search-web {
+  padding: 0px 0px 0px 12px;
+}
